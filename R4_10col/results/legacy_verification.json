@@ -1,0 +1,51 @@
+{
+  "primitive_tests": [
+    819,
+    120
+  ],
+  "rebuilt": {
+    "light": {
+      "variables": 11330,
+      "clauses": 184888,
+      "sha256": "28623398a63e2c065f1f4da940c61b553179b55cd04943a1864f18f412414058"
+    },
+    "full": {
+      "variables": 63563,
+      "clauses": 514322,
+      "sha256": "bf60e274ffb1a5d7275bfe979c2e6b5568f93340b9898c593cebd575a5a238de"
+    }
+  },
+  "positive_controls": [
+    {
+      "graph": "candidate328.json",
+      "colors": 10,
+      "mode": "light",
+      "variables": 11979,
+      "clauses_checked": 208606
+    },
+    {
+      "graph": "candidate328.json",
+      "colors": 10,
+      "mode": "full",
+      "variables": 79231,
+      "clauses_checked": 703003
+    },
+    {
+      "graph": "eil65_corrected.json",
+      "colors": 9,
+      "mode": "light",
+      "variables": 2125,
+      "clauses_checked": 30830
+    },
+    {
+      "graph": "eil65_corrected.json",
+      "colors": 9,
+      "mode": "full",
+      "variables": 12015,
+      "clauses_checked": 92952
+    }
+  ],
+  "status": "PASS",
+  "G328_9_color_SAT_solver_run": false,
+  "UNSAT_proof_checked": false
+}

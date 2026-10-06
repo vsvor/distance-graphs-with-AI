@@ -1,0 +1,19 @@
+{
+  "source_graph_sha256": "7941a2e35f0daa07e9a74315ecb287b1d5490210c902a7da4c501163ece45ea6",
+  "historical_light_sha256": "28623398a63e2c065f1f4da940c61b553179b55cd04943a1864f18f412414058",
+  "historical_full_sha256": "bf60e274ffb1a5d7275bfe979c2e6b5568f93340b9898c593cebd575a5a238de",
+  "legacy_prepare_py_sha256": "0bdb296355bf0e1cc448ce310027b48f5f5228c4cad69d18844cb24f587d1c41",
+  "original_assignment_case_hashes": {
+    "G328_9_case_a0_b0.cnf": "67b1bb704c4db1839689a6eab26e2e26c54fa3c942ba21dc9ff5a894566d2e9c",
+    "G328_9_case_a0_b1.cnf": "2b390caa098a737ed120fef56d1757a18b34a82025b15643a34ff8715039df70",
+    "G328_9_case_a1_b0.cnf": "49d8c53caab9991084a11189657dfc24b3561d79a247c4a0c934b3421002a4e4",
+    "G328_9_case_a1_b1.cnf": "c4d38ba51d1a03b733e05ce821940c4eebb2d25a67a77194a0767cb40354258c",
+    "G328_9_case_a2_b0.cnf": "3ec9b1bf9f4cc14dcedabc1ca706088cdaf174e7aba20f5d060738051d9823a0",
+    "G328_9_case_a2_b1.cnf": "d677a3bac40677ef63249ed7b690b23e7e2020250a918e575a2dfdeaeecd720e",
+    "G328_9_case_a3_b0.cnf": "29cb820779e6f970a935f2f6c01c3aaffb003b9a3d39ab5aac01c99976d19a0e",
+    "G328_9_case_a3_b1.cnf": "5c0de0789821f149acfeefe0ce794d3a24fde75f8204399bcb9b36547b869c4f",
+    "G328_9_case_a4_b0.cnf": "8314b7823d8d7aaf07c4a39c660f2b5132f1e1f70ea53c4ca2a67efbb64eedb7"
+  },
+  "historical_unsat": "User-reported on the light CNF; proof not included or checked",
+  "creation_date": "2026-09-29"
+}

@@ -1,0 +1,522 @@
+{
+  "graph": "data/candidate328.json",
+  "graph_sha256": "7941a2e35f0daa07e9a74315ecb287b1d5490210c902a7da4c501163ece45ea6",
+  "vertex_count": 328,
+  "edge_count": 5066,
+  "colors": 9,
+  "vertex_ids": "original, zero-based",
+  "variable_formula": "x(v,c)=9*v+c; colors 1..9",
+  "clique": [
+    64,
+    39,
+    36,
+    34,
+    51
+  ],
+  "roots": [
+    0,
+    28,
+    31,
+    33
+  ],
+  "base_clauses": 57730,
+  "baseline": {
+    "file": "baseline/G328_9_clique_only.cnf",
+    "sha256": "cdf1ef17c7a7a077919d24a8c5502aca94880987db04e0998d9b2f43d4d75493",
+    "variables": 2952,
+    "clauses": 57735,
+    "assignments": [
+      [
+        64,
+        1
+      ],
+      [
+        39,
+        2
+      ],
+      [
+        36,
+        3
+      ],
+      [
+        34,
+        4
+      ],
+      [
+        51,
+        5
+      ]
+    ]
+  },
+  "cases": [
+    {
+      "file": "cases/G328_9_case_a0_b0.cnf",
+      "sha256": "67b1bb704c4db1839689a6eab26e2e26c54fa3c942ba21dc9ff5a894566d2e9c",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          28,
+          7
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          33,
+          9
+        ]
+      ],
+      "a": 0,
+      "b": 0,
+      "root_colors": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a0_b1.cnf",
+      "sha256": "2b390caa098a737ed120fef56d1757a18b34a82025b15643a34ff8715039df70",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          28,
+          6
+        ],
+        [
+          31,
+          7
+        ],
+        [
+          33,
+          8
+        ]
+      ],
+      "a": 0,
+      "b": 1,
+      "root_colors": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a1_b0.cnf",
+      "sha256": "49d8c53caab9991084a11189657dfc24b3561d79a247c4a0c934b3421002a4e4",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          6
+        ],
+        [
+          31,
+          7
+        ],
+        [
+          33,
+          8
+        ]
+      ],
+      "a": 1,
+      "b": 0,
+      "root_colors": [
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a1_b1.cnf",
+      "sha256": "c4d38ba51d1a03b733e05ce821940c4eebb2d25a67a77194a0767cb40354258c",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          5
+        ],
+        [
+          31,
+          6
+        ],
+        [
+          33,
+          7
+        ]
+      ],
+      "a": 1,
+      "b": 1,
+      "root_colors": [
+        1,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a2_b0.cnf",
+      "sha256": "3ec9b1bf9f4cc14dcedabc1ca706088cdaf174e7aba20f5d060738051d9823a0",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          6
+        ],
+        [
+          33,
+          7
+        ]
+      ],
+      "a": 2,
+      "b": 0,
+      "root_colors": [
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a2_b1.cnf",
+      "sha256": "d677a3bac40677ef63249ed7b690b23e7e2020250a918e575a2dfdeaeecd720e",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          5
+        ],
+        [
+          33,
+          6
+        ]
+      ],
+      "a": 2,
+      "b": 1,
+      "root_colors": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a3_b0.cnf",
+      "sha256": "29cb820779e6f970a935f2f6c01c3aaffb003b9a3d39ab5aac01c99976d19a0e",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          33,
+          6
+        ]
+      ],
+      "a": 3,
+      "b": 0,
+      "root_colors": [
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a3_b1.cnf",
+      "sha256": "5c0de0789821f149acfeefe0ce794d3a24fde75f8204399bcb9b36547b869c4f",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          33,
+          5
+        ]
+      ],
+      "a": 3,
+      "b": 1,
+      "root_colors": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "file": "cases/G328_9_case_a4_b0.cnf",
+      "sha256": "8314b7823d8d7aaf07c4a39c660f2b5132f1e1f70ea53c4ca2a67efbb64eedb7",
+      "variables": 2952,
+      "clauses": 57739,
+      "assignments": [
+        [
+          64,
+          1
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          51,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          33,
+          4
+        ]
+      ],
+      "a": 4,
+      "b": 0,
+      "root_colors": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "solver_status": "Not run on these new CNFs"
+}

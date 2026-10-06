@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "vertices": 328,
+  "edges": 5066,
+  "construction_rebuilt": true,
+  "seed_vertices": 65,
+  "seed_edges": 588,
+  "directions": 2008,
+  "outside_module": 152,
+  "literal_table_edges": 472,
+  "literal_table_isolates": 4,
+  "full_automorphism_group": "S4",
+  "refinement_cell_counts": [
+    5,
+    91,
+    320,
+    328
+  ],
+  "exact_vertex_pairs_checked": 53628,
+  "coordinate_automorphisms_verified": 24,
+  "legal_root_assignments": 501,
+  "root_orbits": {
+    "1,2,3,4": 1,
+    "1,2,3,5": 4,
+    "1,2,3,6": 16,
+    "1,2,5,6": 48,
+    "1,2,6,7": 72,
+    "1,5,6,7": 144,
+    "1,6,7,8": 96,
+    "5,6,7,8": 96,
+    "6,7,8,9": 24
+  },
+  "coverage": "All 501 legal root assignments covered; orbits disjoint",
+  "files": [
+    {
+      "file": "baseline/G328_9_clique_only.cnf",
+      "variables": 2952,
+      "clauses": 57735,
+      "unit_clauses": 5
+    },
+    {
+      "file": "cases/G328_9_case_a0_b0.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a0_b1.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a1_b0.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a1_b1.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a2_b0.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a2_b1.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a3_b0.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a3_b1.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    },
+    {
+      "file": "cases/G328_9_case_a4_b0.cnf",
+      "variables": 2952,
+      "clauses": 57739,
+      "unit_clauses": 9
+    }
+  ],
+  "source_comparisons": {},
+  "source_10_coloring_checked": true,
+  "SAT_solver_run": false,
+  "UNSAT_proof_checked": false
+}

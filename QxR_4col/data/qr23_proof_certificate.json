@@ -1,0 +1,455 @@
+{
+  "root_colors": {
+    "4": 0,
+    "21": 1,
+    "22": 2
+  },
+  "tree": [
+    2,
+    {
+      "0": [
+        3,
+        {
+          "0": null,
+          "1": [
+            5,
+            {
+              "1": null,
+              "2": null
+            }
+          ],
+          "2": null
+        }
+      ],
+      "1": null,
+      "2": [
+        5,
+        {
+          "0": null,
+          "1": null
+        }
+      ]
+    }
+  ],
+  "leaves": [
+    {
+      "assumptions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "conflict": [
+        1,
+        17,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=0.",
+        "ASSUME V3=0.",
+        "V8=1 forced by V3=0, V1=2.",
+        "V19=2 forced by V3=0, V7=1.",
+        "V20=0 forced by V8=1, V19=2.",
+        "V11=2 forced by V20=0, V7=1.",
+        "V5=1 forced by V2=0, V11=2.",
+        "V9=1 forced by V2=0, V11=2.",
+        "V10=2 forced by V3=0, V5=1.",
+        "V13=2 forced by V4=0, V5=1.",
+        "V16=0 forced by V9=1, V10=2.",
+        "V17=2 forced by V20=0, V5=1.",
+        "CONTRADICTION: the edge V1--V17 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        -1,
+        2,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        2,
+        0,
+        1,
+        2,
+        -1
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "conflict": [
+        12,
+        23,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=0.",
+        "ASSUME V3=1.",
+        "V8=0 forced by V3=1, V1=2.",
+        "V12=2 forced by V2=0, V3=1.",
+        "ASSUME V5=1.",
+        "V13=2 forced by V4=0, V5=1.",
+        "V14=0 forced by V5=1, V12=2.",
+        "V6=2 forced by V14=0, V3=1.",
+        "V15=0 forced by V7=1, V6=2.",
+        "V17=0 forced by V5=1, V1=2.",
+        "V18=1 forced by V2=0, V6=2.",
+        "V23=2 forced by V15=0, V18=1.",
+        "CONTRADICTION: the edge V12--V23 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        2,
+        2,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "conflict": [
+        12,
+        16,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=0.",
+        "ASSUME V3=1.",
+        "V8=0 forced by V3=1, V1=2.",
+        "V12=2 forced by V2=0, V3=1.",
+        "ASSUME V5=2.",
+        "V10=0 forced by V3=1, V5=2.",
+        "V11=0 forced by V7=1, V5=2.",
+        "V13=1 forced by V4=0, V5=2.",
+        "V16=2 forced by V10=0, V13=1.",
+        "CONTRADICTION: the edge V12--V16 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        2,
+        1,
+        -1,
+        -1,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "conflict": [
+        18,
+        23,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=0.",
+        "ASSUME V3=2.",
+        "V12=1 forced by V2=0, V3=2.",
+        "V19=0 forced by V7=1, V3=2.",
+        "V23=2 forced by V19=0, V12=1.",
+        "V15=0 forced by V7=1, V23=2.",
+        "V6=1 forced by V15=0, V3=2.",
+        "V18=2 forced by V2=0, V6=1.",
+        "CONTRADICTION: the edge V18--V23 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        0,
+        2,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        0,
+        -1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "conflict": [
+        19,
+        20,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=1.",
+        "V9=2 forced by V4=0, V2=1.",
+        "V11=0 forced by V7=1, V9=2.",
+        "V5=2 forced by V11=0, V2=1.",
+        "V13=1 forced by V4=0, V5=2.",
+        "V16=0 forced by V13=1, V9=2.",
+        "V10=1 forced by V16=0, V5=2.",
+        "V12=2 forced by V16=0, V2=1.",
+        "V3=0 forced by V10=1, V12=2.",
+        "V8=1 forced by V3=0, V1=2.",
+        "V19=2 forced by V3=0, V7=1.",
+        "V20=2 forced by V11=0, V8=1.",
+        "CONTRADICTION: the edge V19--V20 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        -1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        2,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        2,
+        1,
+        2,
+        -1
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "conflict": [
+        19,
+        23,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=2.",
+        "V9=1 forced by V4=0, V2=2.",
+        "ASSUME V5=0.",
+        "V11=2 forced by V5=0, V7=1.",
+        "V17=1 forced by V5=0, V1=2.",
+        "V20=0 forced by V17=1, V11=2.",
+        "V8=1 forced by V20=0, V1=2.",
+        "V19=2 forced by V20=0, V7=1.",
+        "V3=0 forced by V8=1, V19=2.",
+        "V12=1 forced by V3=0, V2=2.",
+        "V14=2 forced by V5=0, V12=1.",
+        "V6=1 forced by V3=0, V14=2.",
+        "V18=0 forced by V6=1, V2=2.",
+        "V23=2 forced by V18=0, V12=1.",
+        "CONTRADICTION: the edge V19--V23 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        2,
+        1,
+        -1,
+        2,
+        -1,
+        -1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "assumptions": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "conflict": [
+        19,
+        20,
+        2
+      ],
+      "trace": [
+        "Normalize the triangle: V4=0, V21=1, V22=2.",
+        "V1=2 forced by V4=0, V21=1.",
+        "V7=1 forced by V4=0, V22=2.",
+        "ASSUME V2=2.",
+        "V9=1 forced by V4=0, V2=2.",
+        "ASSUME V5=1.",
+        "V13=2 forced by V4=0, V5=1.",
+        "V16=0 forced by V9=1, V13=2.",
+        "V10=2 forced by V16=0, V5=1.",
+        "V12=1 forced by V16=0, V2=2.",
+        "V3=0 forced by V12=1, V10=2.",
+        "V8=1 forced by V3=0, V1=2.",
+        "V17=0 forced by V5=1, V1=2.",
+        "V19=2 forced by V3=0, V7=1.",
+        "V20=2 forced by V17=0, V8=1.",
+        "CONTRADICTION: the edge V19--V20 has color 2 at both endpoints."
+      ],
+      "colors": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        2,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        2,
+        2,
+        1,
+        2,
+        -1
+      ]
+    }
+  ]
+}

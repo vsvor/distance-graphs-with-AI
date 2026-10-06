@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "graph_sha256": "44ee6319c3ebfd2ed5ab1635bbf13a8560a1a3d0b64e6f7a8693df2a034e5d6a",
+  "solver_source_sha256": "e529d0bcca3eb068bd82ebdac6587b37b989fcd5f918f3c2af179d9266b4d50a",
+  "method": "exhaustive DSATUR with first-use color renaming",
+  "cases": [
+    {
+      "colors": 8,
+      "result": "UNSAT",
+      "exit_code": 20,
+      "output": "UNSAT n=65 nodes=1095823 time=0.584124",
+      "log": "g65_8color.log"
+    },
+    {
+      "colors": 9,
+      "result": "SAT",
+      "exit_code": 10,
+      "output": "SAT n=65 nodes=78 time=0.000361072\n0 6 5 7 2 3 1 7 6 5 3 4 8 1 3 7 2 4 2 6 7 5 1 6 8 5 8 3 3 8 4 2 8 4 7 3 1 8 2 6 7 5 4 2 1 4 5 0 0 6 0 0 5 4 6 7 3 7 3 8 8 1 1 2 8",
+      "log": "g65_9color.log"
+    }
+  ],
+  "DRAT_certificate": false,
+  "G328_search_run": false
+}

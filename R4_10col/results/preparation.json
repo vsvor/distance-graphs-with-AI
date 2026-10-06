@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "date": "2026-09-29",
+  "python": "3.12.14",
+  "clean_checkout": true,
+  "tested_commit": "02ca10b44a273317d191f6b655c965c2fa30c385",
+  "command": "make verify test verify-legacy check-g65",
+  "deterministic_data_and_cnfs": true,
+  "model_checker_regression_tests": 7,
+  "remote_GitHub_Actions_run": false,
+  "G328_9color_solver_run": false,
+  "UNSAT_proof_checked": false
+}
