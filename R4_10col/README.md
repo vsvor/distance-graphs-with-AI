@@ -56,9 +56,9 @@ the four coordinates `a_i+b_i*sqrt(5)`. Coefficients have no implicit denominato
 
 For a coordinate difference `(a_i+b_i√5)_i`,
 
-\[
+$$
 \|a+b\sqrt5\|^2=\sum_i(a_i^2+5b_i^2)+2\sqrt5\sum_i a_i b_i.
-\]
+$$
 
 It equals 32 exactly when the rational coefficient is 32 and the irrational
 coefficient is zero. No numeric tolerance is involved.
@@ -67,10 +67,10 @@ coefficient is zero. No numeric tolerance is involved.
 
 Enumerate
 
-\[
+$$
 D=\{a+b\sqrt5\in\mathbb Z[\sqrt5]^4:
 \sum_i(a_i^2+5b_i^2)=32,\quad \sum_i a_i b_i=0\}.
-\]
+$$
 
 Every summand is nonnegative, so `|ai|<=5` and `|bi|<=2` suffice for exhaustive
 enumeration. The recursion in `scripts/exact.py` visits every allowed coordinate
@@ -81,10 +81,10 @@ the pairs `(v,d)` with `x=v+d` counts those neighbors exactly: for fixed `v,x`,
 the difference `d` is unique. Retain all original vertices and every candidate
 with count at least eight:
 
-\[
+$$
 V_{328}=V_{65}\cup\{x\in V_{65}+D:
 |\{v\in V_{65}:\|x-v\|^2=32\}|\ge8\}.
-\]
+$$
 
 This gives 328 distinct points and 5,066 edges. The 65-vertex graph is an
 induced subgraph, because both graphs include every pair at squared distance 32.
